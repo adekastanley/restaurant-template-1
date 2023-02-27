@@ -39,7 +39,7 @@
 .navbar-toggler .bar-1 {
     margin-top:  0px;
     transform: rotate(135deg);
-    background-color: red;
+    background-color: grey;
 
 }
 .navbar-toggler .bar-2{
@@ -52,7 +52,7 @@
 .navbar-toggler .bar-3 {
     margin-top:  0px;
     transform: rotate(-135deg);
-    background-color: red;
+    background-color: grey;
 
 }
 
@@ -79,10 +79,14 @@
     
 }
 
+.section-1 .btn {
+    width: 19rem;
+}
+
 .section-2 {
     height: 40rem;
     background-color: grey;
-    /* display: flex; */
+    display: flex;
     justify-content: space-between;
 }
 
@@ -91,8 +95,19 @@
     /* margin-top: 100rem; */
 }
 .section-4 .meal-img-container {
-    /* height: 15rem; */
+    height: 15rem;
     /* width: 20rem; */
     /* margin: 1rem; */
+    background-color: grey;
+}
+.social-container {
+    padding: 0 8rem;
     background-color: red;
+
+}
+.social-img{
+    width: 20px;
+    height: 20px;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
 }

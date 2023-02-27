@@ -78,3 +78,21 @@
     width: 60%;
     
 }
+
+.section-2 {
+    height: 40rem;
+    background-color: grey;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.section-2 .img-text-tag {
+    justify-content: baseline;
+    /* margin-top: 100rem; */
+}
+.section-4 .meal-img-container {
+    /* height: 15rem; */
+    /* width: 20rem; */
+    /* margin: 1rem; */
+    background-color: red;
+}

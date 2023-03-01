@@ -126,3 +126,21 @@
     -webkit-filter: invert(1);
     filter: invert(1);
     } */
+
+::-webkit-scrollbar{
+    width: .3rem;
+    transition: all ease-in-out .4s;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(128, 128, 128, 0.41);
+}
+::-webkit-scrollbar:hover{
+    background-color: rgba(128, 128, 128, 0.41);
+    width: .6rem;
+    transition: all ease-in-out 1s;
+}
+::-webkit-scrollbar-thumb{
+    /* width: 10rem; */
+    background-color: rgb(60, 130, 60);
+
+}

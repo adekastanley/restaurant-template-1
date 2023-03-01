@@ -107,6 +107,8 @@
 .social-container {
     padding: 0 8rem;
     /* background-color: red; */
+    position: relative;
+    height: 1rem;
 
 }
 .social-container li{
@@ -120,6 +122,15 @@
     margin-right: 1rem; */
     -webkit-filter: invert(1);
     filter: invert(1);
+    position: absolute;
+    transition: all ease .5s;
+
+}
+.social-img:hover{
+    width: 1.7rem;
+    height: 1.7rem;
+    -webkit-filter: invert(.4);
+    filter: invert(.4);
 }
 
 /* img {

@@ -84,10 +84,17 @@
 }
 
 .section-2 {
-    height: 40rem;
-    background-color: grey;
     display: flex;
     justify-content: space-between;
+}
+.section-2 img {
+    transition: box-shadow ease-in-out .3s;
+
+
+}
+.section-2 img:hover {
+    transition: box-shadow ease-in-out .3s;
+     box-shadow: 1px 1px 1px 1px grey;
 }
 
 .section-2 .img-text-tag {

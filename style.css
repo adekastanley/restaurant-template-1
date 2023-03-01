@@ -101,20 +101,28 @@
     justify-content: baseline;
     /* margin-top: 100rem; */
 }
-.section-4 .meal-img-container {
-    height: 15rem;
-    /* width: 20rem; */
-    /* margin: 1rem; */
-    background-color: grey;
-}
+/* .section-4  {
+
+} */
 .social-container {
     padding: 0 8rem;
-    background-color: red;
+    /* background-color: red; */
+
+}
+.social-container li{
+   list-style-type: none;
 
 }
 .social-img{
-    width: 20px;
-    height: 20px;
+    width: 1.6rem;
+    height: 1.6rem;
     /* margin-left: 1rem;
     margin-right: 1rem; */
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
+
+/* img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    } */

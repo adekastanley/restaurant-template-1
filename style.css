@@ -118,8 +118,6 @@
 .social-img{
     width: 1.6rem;
     height: 1.6rem;
-    /* margin-left: 1rem;
-    margin-right: 1rem; */
     -webkit-filter: invert(1);
     filter: invert(1);
     position: absolute;
@@ -133,25 +131,26 @@
     filter: invert(.4);
 }
 
-/* img {
-    -webkit-filter: invert(1);
-    filter: invert(1);
-    } */
+
 
 ::-webkit-scrollbar{
     width: .3rem;
     transition: all ease-in-out .4s;
 }
+
 ::-webkit-scrollbar-track{
     background-color: rgba(128, 128, 128, 0.41);
+    transition: all ease-in-out .4s;
+    border-radius: 100vw;
+    margin-block: 1em;
 }
+
 ::-webkit-scrollbar:hover{
-    background-color: rgba(128, 128, 128, 0.41);
+    /* background-color: rgba(128, 128, 128, 0.842); */
     width: .6rem;
-    transition: all ease-in-out 1s;
 }
 ::-webkit-scrollbar-thumb{
-    /* width: 10rem; */
     background-color: rgb(60, 130, 60);
+    border-radius: 100vw;
 
 }
